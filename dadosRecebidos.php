@@ -7,8 +7,8 @@
         $depoimento = $_POST['depoimento'];
 
         echo "<h2>Dados Recebidos!</h2>";
-        echo "Seja bem-vindo(a) $nome! <br>";
-        echo "E-mail cadastrado: $email.";
+        echo "<br>Seja bem-vindo(a) $nome!";
+        echo "<br>E-mail cadastrado: $email.";
         echo "<br>Curso escolhido: $curso.";
         echo "<br>Depoimento: $depoimento";
 
